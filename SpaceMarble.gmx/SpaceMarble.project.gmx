@@ -12,7 +12,6 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_marbcontrol.gml</script>
     <script>scripts\scr_marblecontrol.gml</script>
   </scripts>
   <objects name="objects">
@@ -24,7 +23,7 @@
     <room>rooms\testroom</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41871.5306836458</constant>
+    <constant name="GM_build_date">41871.5504997106</constant>
     <constant name="GM_version">'100'</constant>
   </constants>
   <help>
