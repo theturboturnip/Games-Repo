@@ -9,6 +9,10 @@
     <sprite>sprites\spr_marble</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_smallwall</sprite>
+    <sprite>sprites\spr_bed</sprite>
+    <sprite>sprites\spr_desk</sprite>
+    <sprite>sprites\spr_lamp</sprite>
+    <sprite>sprites\spr_wardrobe</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,16 +22,18 @@
   <objects name="objects">
     <object>objects\obj_marble</object>
     <object>objects\obj_floor</object>
-    <object>objects\obj_smallfloor</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_smallwall</object>
+    <object>objects\obj_bed</object>
+    <object>objects\obj_desk</object>
+    <object>objects\obj_lamp</object>
+    <object>objects\obj_wardrobe</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\testroom</room>
     <room>rooms\house_attic</room>
+    <room>rooms\testroom</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41871.6733685417</constant>
+    <constant name="GM_build_date">41883.438434838</constant>
     <constant name="GM_version">'100'</constant>
   </constants>
   <help>
