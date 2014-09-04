@@ -2,7 +2,7 @@ push_speed=10
 jump_height=3
 height=1
 
-global.is_grounded=!physics_test_overlap(x,y-10,0,all) 
+//global.is_grounded=!physics_test_overlap(x,y-10,0,all) 
 pushing_left=keyboard_check(ord("A"))
 pushing_right=keyboard_check(ord("D"))
 direction_pushing=-pushing_left
@@ -36,3 +36,4 @@ physics_apply_impulse(x,y,current_direction*1000,0);
 health=0;
 }
 global.is_grounded=0
+show_debug_message(place_empty(mouse_x,mouse_y))

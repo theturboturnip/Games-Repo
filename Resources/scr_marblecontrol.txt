@@ -1,7 +1,8 @@
 push_speed=10
 jump_height=3
-height=32
-//global.is_grounded=place_empty(x,y-height)
+height=1
+
+//global.is_grounded=!physics_test_overlap(x,y-10,0,all) 
 pushing_left=keyboard_check(ord("A"))
 pushing_right=keyboard_check(ord("D"))
 direction_pushing=-pushing_left
@@ -18,7 +19,7 @@ if trying_jump show_debug_message(string(global.jump_number))
     if(global.jump_number<2 and trying_jump){
         is_jumping=1
         if global.jump_number=1{
-            phy_linear_velocity_x=0
+            //phy_linear_velocity_x=0
             phy_linear_velocity_y=0
             }
         height_mod=1
