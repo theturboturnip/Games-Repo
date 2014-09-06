@@ -5,33 +5,47 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_floor</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>global.button=instance_create(x,y-sprite_height,obj_button)
-global.button.image_xscale=image_xscale
-global.button.image_yscale=image_yscale
-newfix=physics_fixture_create()
-physics_fixture_set_box_shape(newfix,global.button.sprite_width/2,global.button.sprite_height/2)
-physics_fixture_bind(newfix,global.button)
-</string>
+            <kind>9</kind>
+            <script>scr_create_button</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -81,7 +95,7 @@ physics_fixture_bind(newfix,global.button)
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>2</PhysicsObjectShape>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -91,11 +105,9 @@ physics_fixture_bind(newfix,global.button)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>11,0</point>
-    <point>12,0.75</point>
-    <point>12,2</point>
-    <point>0,2</point>
-    <point>0,1</point>
-    <point>1,0</point>
+    <point>0,0</point>
+    <point>192,0</point>
+    <point>192,32</point>
+    <point>0,32</point>
   </PhysicsShapePoints>
 </object>

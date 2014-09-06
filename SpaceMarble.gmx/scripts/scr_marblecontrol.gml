@@ -1,5 +1,5 @@
-push_speed=10
-jump_height=3
+push_speed=2.5
+jump_height=1.25
 height=1
 
 //global.is_grounded=!physics_test_overlap(x,y-10,0,all) 

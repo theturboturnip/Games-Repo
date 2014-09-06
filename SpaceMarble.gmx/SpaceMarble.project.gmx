@@ -17,6 +17,7 @@
   <scripts name="scripts">
     <script>scripts\scr_marblecontrol.gml</script>
     <script>scripts\scr_buttoncontrol.gml</script>
+    <script>scripts\scr_create_button.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_marble</object>
@@ -29,7 +30,7 @@
     <room>rooms\testroom</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41886.548963669</constant>
+    <constant name="GM_build_date">41888.3893791319</constant>
     <constant name="GM_version">'100'</constant>
   </constants>
   <help>
