@@ -8,12 +8,12 @@
         // Ambient pass
         Pass {
         Name "BASE"
-        Tags {"LightMode" = "Always" /* Upgrade NOTE: changed from PixelOrNone to Always */}
+        Tags {"LightMode" = "Always" /* Upgrade NOTE: changed from PixelOrNone to Always */ /* Upgrade NOTE: changed from PixelOrNone to Always */}
         Color [_PPLAmbient]
-        SetTexture [_BumpMap] {
+        /*SetTexture [_BumpMap] {
             constantColor (.5,.5,.5)
             combine constant lerp (texture) previous
-            }
+            }*/
         SetTexture [_MainTex] {
             constantColor [_Color]
             Combine texture * previous DOUBLE, texture*constant
@@ -26,9 +26,9 @@
         Tags {"LightMode" = "Vertex"}
         Material {
             Diffuse [_Color]
-            Emission [_PPLAmbient]
-            Shininess [_Shininess]
-            Specular [_SpecColor]
+            //Emission [_PPLAmbient]
+            //Shininess [_Shininess]
+            //Specular [_SpecColor]
             }
         SeparateSpecular On
         Lighting On

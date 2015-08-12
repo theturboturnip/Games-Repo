@@ -187,6 +187,30 @@ Prefab:
       propertyPath: m_BendingStiffness
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_ExternalAcceleration.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_ExternalAcceleration.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_ExternalAcceleration.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_RandomAcceleration.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_RandomAcceleration.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 18376452, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
+      propertyPath: m_RandomAcceleration.y
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2baf14acb71c06045b89c18c5d008119, type: 2}
   m_IsPrefabParent: 0

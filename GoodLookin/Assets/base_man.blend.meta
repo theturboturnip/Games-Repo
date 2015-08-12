@@ -73,7 +73,10 @@ ModelImporter:
     4300014: Right_Foot
     4300016: Left_Foot
     4300018: Body
-    7400000: Default Take
+    7400000: Crouch
+    7400002: Dave_RigAction
+    7400004: Stand Idle
+    7400006: Run
     9500000: //RootNode
     13700000: Left_Arm
     13700002: Left_Foot
@@ -104,7 +107,259 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Dave_Rig
+        weight: 1
+      - path: Dave_Rig/Body_0
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm/Left_Forearm
+        weight: 1
+      - path: Dave_Rig/Body_0/Neck
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm/Right_Forearm
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle/Left_Foot_0
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle/Right_Foot_0
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Leg
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Foot
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Leg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand Idle
+      takeName: Dave_RigAction_001
+      firstFrame: 10
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Dave_Rig
+        weight: 1
+      - path: Dave_Rig/Body_0
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm/Left_Forearm
+        weight: 1
+      - path: Dave_Rig/Body_0/Neck
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm/Right_Forearm
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle/Left_Foot_0
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle/Right_Foot_0
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Leg
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Foot
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Leg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Default Take
+      firstFrame: 20
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Dave_Rig
+        weight: 1
+      - path: Dave_Rig/Body_0
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Left_Shoulder/Left_Upper_Arm/Left_Forearm
+        weight: 1
+      - path: Dave_Rig/Body_0/Neck
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm
+        weight: 1
+      - path: Dave_Rig/Body_0/Right_Shoulder/Right_Upper_Arm/Right_Forearm
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle
+        weight: 1
+      - path: Dave_Rig/Left_Pelvis/Left_Thigh/Left_Lower_Leg/Left_Ankle/Left_Foot_0
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle
+        weight: 1
+      - path: Dave_Rig/Right_Pelvis/Right_Thigh/Right_Lower_Leg/Right_Ankle/Right_Foot_0
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Leg
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Foot
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Leg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
